@@ -80,7 +80,7 @@ const Proposal = (
       </Box>
       <Button
         onClick={handleVoting}
-        className="bg-blue-500 text-white font-bold w-full mt-4 p-4 rounded-md shadow-sm"
+        className="bg-pink-500 text-white font-bold w-full mt-4 p-4 rounded-md shadow-sm"
       >
         {loading ? "Voting..." : "Vote"}
       </Button>

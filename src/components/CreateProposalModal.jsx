@@ -13,6 +13,7 @@ const CreateProposalModal = () => {
         minVote: 2,
     });
 
+
     const handleInputChange = (name, e) => {
         setState((preState) => ({ ...preState, [name]: e.target.value }));
     };
